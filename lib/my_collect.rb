@@ -21,11 +21,11 @@ end
    my_collect(languages) do |language|
      i = 0 
      if block_given?
-       while counter < language.length 
+       while i < language.length 
        language.collect do |language|
        yield language[i]  
       languages<< language
-       counter +=1 
+       i +=1 
      end 
    else 
       puts "No block was given."
