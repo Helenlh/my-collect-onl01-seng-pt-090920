@@ -1,8 +1,8 @@
 
-my_collect(languages)
+my_collect(languages) do |sample|
   languages =  ['ruby', 'javascript', 'python', 'objective-c'] 
-  my_collect(array) do|sample|
-      empty_array = []
+  languages = []
+
     counter = 0
     if block_given?
       while counter < empty_array.length
