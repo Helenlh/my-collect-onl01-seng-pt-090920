@@ -62,6 +62,6 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
   
   
   
-  my_collect(students)
+ my_collect(students)
   names.split(" ").first 
 end 
