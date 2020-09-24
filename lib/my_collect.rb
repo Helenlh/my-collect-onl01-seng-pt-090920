@@ -1,5 +1,5 @@
 
-my_collect(languages)
+
   languages =  ['ruby', 'javascript', 'python', 'objective-c'] 
   my_collect(array) do|sample|
       empty_array = []
