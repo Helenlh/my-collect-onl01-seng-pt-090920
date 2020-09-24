@@ -19,7 +19,7 @@ end
 
 
    my_collect(languages) do |language|
-     counter = 0 
+     i = 0 
      if block_given?
        while counter < language.length 
        language.collect do |language|
