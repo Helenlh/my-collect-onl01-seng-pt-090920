@@ -26,8 +26,8 @@ end
        yield language[i]  
       languages<< language
        i +=1 
-     end 
-   else 
+        end 
+      else 
       puts "No block was given."
     end 
     languages 
