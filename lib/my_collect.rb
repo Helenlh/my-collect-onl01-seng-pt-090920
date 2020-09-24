@@ -55,7 +55,7 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
        students << names 
        i +=1 
        end 
-     students 
+      students 
       else 
       puts "No block was given."
     end 
