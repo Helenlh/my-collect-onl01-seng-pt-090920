@@ -49,7 +49,6 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
    i = 0 
      if block_given?
        while i < students.length 
-       students.collect do |names|
        yield names[i]  
        students << names 
        i +=1 
@@ -64,5 +63,5 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
   
   
   my_collect(students)
-  names.split(" ").join 
+  names.split(" ").first 
 end 
