@@ -3,13 +3,13 @@ my_collect(languages)
   languages =  ['ruby', 'javascript', 'python', 'objective-c'] 
   my_collect(array) do|sample|
       empty_array = []
-    counter = 0
+    i = 0
     if block_given?
       while counter < empty_array.length
       array.collect(empty_array) do |x|
-      counter += 1 
+      i += 1 
       end 
-      counter 
+      i
     end 
     else 
       puts "No block was given."
