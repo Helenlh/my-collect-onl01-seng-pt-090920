@@ -28,8 +28,8 @@ end
        i +=1 
         end 
       else 
-      puts "No block was given."
-    end 
+        puts "No block was given."
+       end 
     languages 
   end
 
@@ -38,7 +38,6 @@ end
 
 my_collect(languages)
        language.upcase
-
 end 
 
 
