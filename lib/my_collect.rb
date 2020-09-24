@@ -37,9 +37,8 @@ end
 
 
 my_collect(languages)
-while counter < languages.length 
        language.upcase
-      end 
+
 end 
 
 
@@ -48,13 +47,13 @@ end
 students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] 
 
  my_collect(students) do |names|
-   counter = 0 
+   i = 0 
      if block_given?
-       while counter < students.length 
+       while i < students.length 
        students.collect do |names|
        yield names[i]  
        students << names 
-       counter +=1 
+       i +=1 
        end 
      students 
       else 
